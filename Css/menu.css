@@ -198,6 +198,11 @@ body {
   gap: 25px;
   margin: 0 8px;
 }
+@media (max-width:768px) {
+  .food .container {
+     margin: 0 8px;
+  }
+}   
 .food .box {
   display: flex;
   align-items: center;
@@ -248,52 +253,6 @@ body {
   color: var(--main-color);
   font-weight: 500;
 }
-/*start Food*/
-/*.food {
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
-margin: 100px auto;
-}
-.food .container .box h2 {
-  font-size: 1.5rem;
-  color: var(--main-color);
-  font-weight: 700;
-  margin-bottom: 15px;
-  text-align: center;
-  margin-top: 25px;
-}
-.food .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
-  position: relative;
-  margin-top: 50px;
-}
-.food .container .box {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-self: baseline;
-  border: 3px solid var(--main-color);
-  border-radius: 9px;
-  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
-}
-.food .box .order {
-  margin: 15px;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-}
-.food .box .order h3 {
-  font-weight: 600;
-}
-.food .box .order span {
-  color: var(--main-color);
-  font-size: 1.2rem;
-}*/
-/*End Food*/
 
 /*Start Footer*/
 .footer {
