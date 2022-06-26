@@ -196,7 +196,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  margin: 0 8px;
 }
 @media (max-width:768px) {
   .food .container {
