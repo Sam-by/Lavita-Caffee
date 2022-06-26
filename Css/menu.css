@@ -196,6 +196,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  margin: 0 8px;
 }
 .food .box {
   display: flex;
