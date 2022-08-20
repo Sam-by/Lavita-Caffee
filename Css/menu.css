@@ -81,6 +81,11 @@ body {
     left: 0;
     top: 83px;
 }
+@media (max-width: 767px) {
+.header .container::after {
+    top: 82px;
+  }
+}    
 .header .container .checkbtn {
   font-size: 30px;
   color: white;
