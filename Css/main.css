@@ -97,7 +97,12 @@ body {
     background-color: white;
     position: absolute;
     left: 0;
-    top: 82px;
+    top: 87px;
+}
+@media (max-width:767px) {
+    .header .container::after {
+         top: 82px
+    }
 }
 .header .container .checkbtn {
   font-size: 30px;
@@ -120,7 +125,7 @@ body {
     width: 70%;
     height: 100vh;
     background: #16161a;
-    top: 85px;
+    top: 83px;
     right: -100%;
     text-align: center;
     transition: all 0.5s;
