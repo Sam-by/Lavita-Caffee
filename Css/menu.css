@@ -21,6 +21,7 @@ body {
     direction: rtl;
     font-family: 'Cairo', sans-serif;
     background-image: url(../images/menu-bg.jpg);
+    background-color: black;
     }
   ul {
     list-style: none;
