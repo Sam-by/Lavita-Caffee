@@ -164,7 +164,7 @@ body {
   }
   #check:checked ~.nav {
     right: 0;
-    top: 82px;
+    top: 83px;
   }
 }
 .header .logo {
