@@ -40,9 +40,7 @@ body {
 /*small*/
 @media (min-width: 768px) {
     .container {
-      width: 375px;
-      margin: 0 auto;
-
+      width: 750px;
     }
   }
   /*Med*/
@@ -80,12 +78,8 @@ body {
     background-color: white;
     position: absolute;
     left: 0;
-    top: 87px;
+    top: 82px;
 }
-@media (max-width:992px) {
-  .header .container::after {
-    top:82px;
-  }
 .header .container .checkbtn {
   font-size: 30px;
   color: white;
